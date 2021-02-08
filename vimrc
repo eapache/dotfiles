@@ -14,6 +14,7 @@ Plug 'dbakker/vim-projectroot'
 Plug 'zhimsel/vim-stay'
 Plug 'tpope/vim-surround'
 Plug 'mg979/vim-visual-multi'
+Plug 'neomake/neomake'
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""
