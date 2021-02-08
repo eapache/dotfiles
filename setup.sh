@@ -6,7 +6,7 @@ echo ". ~/dotfiles/zshrc" >> ~/.zshrc
 
 for FILE in gitignore vimrc
 do
-    ln -s ~/dotfiles/$FILE >> ~/.$FILE
+    ln -s ~/dotfiles/$FILE ~/.$FILE
 done
 
 mkdir -p ~/.vim/autoload
