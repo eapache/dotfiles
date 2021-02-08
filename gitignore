@@ -1,0 +1,9 @@
+.bundle
+.starscope.db
+.byebug_history
+.*.swp
+.*.swo
+tmp
+tags
+cscope.out
+.rubocop-http---shopify-github-io-ruby-style-guide-rubocop-yml
