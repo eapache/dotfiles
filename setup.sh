@@ -1,9 +1,8 @@
 #!/bin/sh
 
-for FILE in gitconfig zshrc
-do
-    cat ~/dotfiles/$FILE >> ~/.$FILE
-done
+cat ~/dotfiles/gitconfig >> ~/.gitconfig
+
+echo ". ~/dotfiles/zshrc" >> ~/.zshrc
 
 for FILE in gitignore vimrc
 do
