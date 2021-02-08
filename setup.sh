@@ -7,7 +7,7 @@ done
 
 for FILE in gitignore vimrc
 do
-    cat ~/dotfiles/$FILE >> ~/.$FILE
+    ln -s ~/dotfiles/$FILE >> ~/.$FILE
 done
 
 mkdir -p ~/.vim/autoload
