@@ -11,7 +11,7 @@ do
 done
 
 # INSTALL UTILS
-sudo apt-get install fzf ripgrep
+sudo apt-get install ripgrep
 
 # INSTALL VIM PLUGS
 mkdir -p ~/.vim/autoload
