@@ -1,5 +1,7 @@
 #!/bin/sh
 
+exit 0
+
 for FILE in gitconfig zshrc
 do
     cat ~/dotfiles/$FILE >> ~/.$FILE
