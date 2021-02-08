@@ -5,5 +5,6 @@ export EDITOR='vim'
 alias l="ls -lah"
 alias g="git"
 alias v="vim"
+alias ..="cd .."
 alias be="bundle exec"
 alias brk="bundle exec rake"
