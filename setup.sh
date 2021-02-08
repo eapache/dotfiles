@@ -13,6 +13,7 @@ done
 mkdir -p ~/.vim/autoload
 ln -s ~/dotfiles/plug.vim ~/.vim/autoload/plug.vim
 
-vim -es -i NONE -c "PlugInstall" -c "q"
+# install vim plugins
+vim -es -u ~/.vimrc -i NONE -c "PlugInstall" -c "qa"
 
 exit 0
