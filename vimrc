@@ -17,6 +17,7 @@ Plug 'mg979/vim-visual-multi'
 Plug 'neomake/neomake'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""
