@@ -1,5 +1,5 @@
 # setup PATH
-PATH="~/dotfiles/bin:$PATH"
+PATH="$HOME/dotfiles/bin:$PATH"
 
 # environment vars
 export EDITOR='vim'
