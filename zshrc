@@ -1,3 +1,6 @@
+# setup PATH
+PATH="~/dotfiles/bin:$PATH"
+
 # environment vars
 export EDITOR='vim'
 
