@@ -55,6 +55,8 @@ let g:ragel_default_subtype='ruby'
 let g:neomake_warning_sign = { 'text': 'W', 'texthl': 'WarningMsg' }
 let g:neomake_error_sign = { 'text': 'E', 'texthl': 'ErrorMsg' }
 let g:neomake_ruby_enabled_makers = ['mri', 'rubocop']
+let g:neomake_ruby_rubocop_exe = 'bundle'
+let g:neomake_ruby_rubocop_args = ['exec', 'rubocop','--format', 'emacs', '--force-exclusion', '--display-cop-names']
 
 highlight WarningMsg ctermbg=yellow ctermfg=black
 highlight link NeomakeError ErrorMsg
