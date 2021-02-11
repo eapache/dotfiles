@@ -10,6 +10,8 @@ do
     ln -s ~/dotfiles/$FILE ~/.$FILE
 done
 
+tmux source-file ~/.tmux.conf
+
 # INSTALL UTILS
 sudo apt-get install ripgrep
 
