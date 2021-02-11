@@ -5,7 +5,7 @@ cat ~/dotfiles/gitconfig >> ~/.gitconfig
 
 echo ". ~/dotfiles/zshrc" >> ~/.zshrc
 
-for FILE in gitignore vimrc
+for FILE in gitignore vimrc tmux.conf
 do
     ln -s ~/dotfiles/$FILE ~/.$FILE
 done
