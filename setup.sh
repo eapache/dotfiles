@@ -13,7 +13,7 @@ done
 tmux source-file ~/.tmux.conf
 
 # INSTALL UTILS
-sudo apt-get install ripgrep
+sudo apt-get install ripgrep exuberant-ctags
 
 # INSTALL VIM PLUGS
 mkdir -p ~/.vim/autoload
