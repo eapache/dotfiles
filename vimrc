@@ -209,6 +209,7 @@ set laststatus=2
 set rtp+=/usr/local/opt/fzf
 nnoremap <c-b> :Buffers<CR>
 nnoremap <c-p> :GFiles -- . ':!:*.rbi'<CR>
+let g:fzf_preview_window = ['down:40%', 'ctrl-/']
 
 " disable netrw, I don't want it and it's super-slow on large files
 let loaded_netrwPlugin = 1
