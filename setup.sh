@@ -12,8 +12,8 @@ done
 
 tmux source-file ~/.tmux.conf
 
-mkdir -p ~/.config
-ln -s ~/dotfiles/init.vim ~/.config/init.vim
+mkdir -p ~/.config/nvim
+ln -s ~/dotfiles/init.vim ~/.config/nvim/init.vim
 
 # INSTALL UTILS
 sudo apt-get -y install ripgrep exuberant-ctags cmake python3-dev
