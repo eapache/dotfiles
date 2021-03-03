@@ -2,7 +2,7 @@
 PATH="$HOME/dotfiles/bin:$PATH"
 
 # environment vars
-export EDITOR='vim'
+export EDITOR='nvim'
 
 # git aliases
 alias g="git"
@@ -13,7 +13,7 @@ alias grbc="git rebase --continue"
 
 # misc aliases
 alias l="ls -lah"
-alias v="vim"
+alias v="nvim"
 alias ..="cd .."
 alias binst="bundle install"
 alias be="bundle exec"
