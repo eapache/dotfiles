@@ -20,7 +20,7 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'ycm-core/YouCompleteMe', { 'do': './install.py' }
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""
