@@ -16,7 +16,7 @@ mkdir -p ~/.config/nvim
 ln -s ~/dotfiles/init.vim ~/.config/nvim/init.vim
 
 # INSTALL UTILS
-sudo apt-get -y install ripgrep exuberant-ctags
+sudo apt-get -y install ripgrep
 
 # INSTALL VIM PLUGS
 mkdir -p ~/.vim/autoload
