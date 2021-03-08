@@ -14,10 +14,9 @@ tmux source-file ~/.tmux.conf
 
 mkdir -p ~/.config/nvim
 ln -s ~/dotfiles/init.vim ~/.config/nvim/init.vim
-ln -s ~/dotfiles/coc-settings.json ~/.config/nvim/coc-settings.json
 
 # INSTALL UTILS
-sudo apt-get -y install ripgrep
+sudo apt-get -y install ripgrep exuberant-ctags cmake python3-dev
 
 # INSTALL VIM PLUGS
 mkdir -p ~/.vim/autoload
