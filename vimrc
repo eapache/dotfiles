@@ -96,7 +96,7 @@ set tabstop=8     " Display tabs as x characters wide
 set expandtab     " Set tabs to automatically expand into spaces
 
 au FileType c,cpp,go setlocal foldnestmax=1
-au FileType lua,ruby,eruby,vim,yaml,coffee,javascript,typescriptreact setlocal shiftwidth=2 softtabstop=2
+au FileType lua,ruby,eruby,vim,yaml,coffee,javascript,typescriptreact,typescript setlocal shiftwidth=2 softtabstop=2
 au FileType java,go,swift setlocal shiftwidth=8 softtabstop=8 noexpandtab
 au FileType diff setlocal foldnestmax=0
 au FileType json setlocal foldnestmax=4
