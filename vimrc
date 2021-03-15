@@ -34,6 +34,7 @@ set backspace=indent,eol,start " make the backspace key work like you'd expect
 set background=dark " Dark themes are more readable with this
 set t_Co=256 " Enable 256 colour mode
 set formatoptions=bjt " See :help fo-table
+set updatetime=100 " make gitgutter and other things much faster
 
 set title
 set wildmenu
@@ -71,6 +72,14 @@ autocmd FileType ruby syn region sorbetSignatureBlock start="sig {" end="}"
 autocmd FileType ruby syn region sorbetSignatureBlock start="\<sig\> \<do\>" matchgroup=sorbetSignature end="\<end\>"
 autocmd FileType ruby hi def link sorbetSignature Comment
 autocmd FileType ruby hi def link sorbetSignatureBlock Comment
+
+" GitGutter
+highlight! link SignColumn LineNr
+let g:gitgutter_set_sign_backgrounds = 1
+let g:gitgutter_grep = 'rg'
+highlight GitGutterAdd    guifg=#009900 ctermfg=2
+highlight GitGutterChange guifg=#bbbb00 ctermfg=3
+highlight GitGutterDelete guifg=#ff2222 ctermfg=1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""
 " WHITESPACE AND LINE-WIDTH
