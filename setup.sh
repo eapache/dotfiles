@@ -16,7 +16,7 @@ mkdir -p ~/.config/nvim
 ln -s ~/dotfiles/init.vim ~/.config/nvim/init.vim
 
 # INSTALL UTILS
-sudo apt-get -y install ripgrep exuberant-ctags cmake python3-dev
+sudo apt-get -y install tree ripgrep exuberant-ctags cmake python3-dev
 
 # INSTALL VIM PLUGS
 mkdir -p ~/.vim/autoload
