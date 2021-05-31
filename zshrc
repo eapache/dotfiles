@@ -21,6 +21,6 @@ alias brk="bundle exec rake"
 
 # tmux by default
 if [ -z "$TMUX" ] && [ -n "$SSH_TTY" ] && [[ $- =~ i ]]; then
-    tmux -CC attach-session || tmux -CC new-session
+    tmux -u -CC attach-session || tmux -u -CC new-session
     exit
 fi
